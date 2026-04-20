@@ -91,7 +91,7 @@ export default function CartPage() {
           </div>
           <button
             onClick={handleWhatsAppCheckout}
-            className="w-full btn bg-green-600 hover:bg-green-700"
+            className="relative z-50 w-full btn bg-green-600 hover:bg-green-700"
           >
             Checkout via WhatsApp
           </button>
