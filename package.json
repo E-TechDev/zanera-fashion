@@ -1,0 +1,35 @@
+{
+  "name": "zanera-fashion",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@sanity/client": "^6.0.0",
+    "@sanity/image-url": "^1.0.0",
+    "autoprefixer": "^10.0.0",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^0.400.0",
+    "next": "^14.0.0",
+    "next-sanity": "^9.4.7",
+    "postcss": "^8.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "sanity": "^3.0.0",
+    "styled-components": "^6.0.0",
+    "tailwindcss": "^3.0.0"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.15.9",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "typescript": "^5.0.0"
+  }
+}
